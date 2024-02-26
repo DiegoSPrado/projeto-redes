@@ -12,14 +12,14 @@ html, body {
     
 }
 
-div#fora {
+main#fora {
     background-image: url(../imagens/fundo-madeira.jpg);
     background-size: cover;
     position: relative;
     height: 100vh;
 }
 
-div#dentro {
+section#dentro {
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -29,4 +29,13 @@ div#dentro {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+iframe#telainicio {
+    position: relative;
+    top: 81px;
+    left: 22px;
+    width: 267px;
+    height: 470px;
+    
 }
