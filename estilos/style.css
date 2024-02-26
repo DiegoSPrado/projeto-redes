@@ -17,6 +17,7 @@ main#fora {
     background-size: cover;
     position: relative;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 section#dentro {
@@ -38,4 +39,22 @@ iframe#telainicio {
     width: 267px;
     height: 470px;
     
+}
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.507);
+    box-sizing: border-box;
+}
+
+section#redes img:hover {
+    border: 2px solid white;
+    transform: translate(-3px -3px);
+    transition: border .4s;
 }
